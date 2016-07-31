@@ -26,7 +26,6 @@
 	<script src="//code.jquery.com/jquery.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
-	<script src="{{ asset('/ckeditor/ckeditor.js') }}"></script>
 	
 	@yield('footer')
 	
