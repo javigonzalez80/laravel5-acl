@@ -1,3 +1,17 @@
+# Laravel 5.2 ACL
+
+A Laravel 5.2 Access Control List with Roles and Permissions, the Permission will be checked by a Middleware. 
+
+In the registration process the new user gets a role (role_id = 1), therefore you need to create a role before you create or register a user.
+
+**Changing the role of the user when he signs up:** app\Services\Registrar.php
+
+**Adding a permission to route:** app\Http\routes.php
+- middleware = name given to the middleware in the app\Http\Kernel.php file.
+- permission = name of the permission. (If the user has a role with this permission he can access the page.)
+- uses = name of the controller.
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
